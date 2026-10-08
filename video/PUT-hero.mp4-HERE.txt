@@ -1,0 +1,1 @@
+Optional: add a short muted clip named hero.mp4 here, then uncomment the <video> line in the HERO section of index.html.
