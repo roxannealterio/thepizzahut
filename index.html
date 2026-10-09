@@ -1,0 +1,797 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>The Pizza Garden · Pizza &amp; Pasta in Morningside, Brisbane</title>
+<meta name="description" content="Pizzeria in Morningside, Brisbane, now run by new owner Phill. Classic and gourmet pizza, homemade pasta, Italian wine and a garden. Dine in or takeaway.">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="canonical" href="https://thepizzagarden.com.au/">
+<meta name="theme-color" content="#B52218">
+<link rel="icon" type="image/png" sizes="512x512" href="img/favicon-512.png">
+<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32.png">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+<meta name="geo.region" content="AU-QLD">
+<meta name="geo.placename" content="Morningside, Brisbane">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="The Pizza Garden">
+<meta property="og:title" content="The Pizza Garden · Pizza &amp; Pasta in Morningside, Brisbane">
+<meta property="og:description" content="Pizzeria on Asquith Street, Morningside, now under new owner Phill. Classic and gourmet pizza, homemade pasta and an outdoor garden. Kids and dogs welcome.">
+<meta property="og:url" content="https://thepizzagarden.com.au/">
+<meta property="og:image" content="https://thepizzagarden.com.au/img/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Pizzas, pasta and salads from The Pizza Garden on a wooden table">
+<meta property="og:locale" content="en_AU">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="The Pizza Garden · Pizza &amp; Pasta in Morningside, Brisbane">
+<meta name="twitter:description" content="Pizzeria in Morningside, Brisbane. Classic and gourmet pizza, homemade pasta and an outdoor garden.">
+<meta name="twitter:image" content="https://thepizzagarden.com.au/img/og-image.jpg">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Restaurant",
+  "@id": "https://thepizzagarden.com.au/#restaurant",
+  "name": "The Pizza Garden",
+  "url": "https://thepizzagarden.com.au/",
+  "logo": "https://thepizzagarden.com.au/img/favicon-512.png",
+  "image": ["https://thepizzagarden.com.au/img/og-image.jpg", "https://thepizzagarden.com.au/img/spread.jpg"],
+  "description": "Pizzeria in Morningside, Brisbane, owned by Phill, serving classic and gourmet pizza, homemade pasta and Italian wine, with an outdoor garden.",
+  "telephone": "+61 7 4800 5359",
+  "email": "hello@thepizzagarden.com.au",
+  "address": {"@type": "PostalAddress", "streetAddress": "Shop 4, 32 Asquith Street", "addressLocality": "Morningside", "addressRegion": "QLD", "postalCode": "4170", "addressCountry": "AU"},
+  "hasMap": "https://www.google.com/maps/search/?api=1&query=The+Pizza+Garden+32+Asquith+Street+Morningside+QLD+4170",
+  "servesCuisine": ["Italian", "Pizza", "Pasta"],
+  "priceRange": "$$",
+  "hasMenu": "https://thepizzagarden.com.au/#menu",
+  "acceptsReservations": "https://restaurant-1787543035.resos.com/booking",
+  "potentialAction": {"@type": "OrderAction", "target": "https://thepizzagarden.bitebusiness.com"},
+  "foundingDate": "2020",
+  "openingHoursSpecification": [
+    {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Wednesday", "Thursday"], "opens": "17:00", "closes": "20:00"},
+    {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Friday", "Saturday"], "opens": "16:00", "closes": "21:00"},
+    {"@type": "OpeningHoursSpecification", "dayOfWeek": "Sunday", "opens": "16:00", "closes": "20:00"}
+  ],
+  "amenityFeature": [
+    {"@type": "LocationFeatureSpecification", "name": "Outdoor seating", "value": true},
+    {"@type": "LocationFeatureSpecification", "name": "Dog friendly", "value": true},
+    {"@type": "LocationFeatureSpecification", "name": "Kids menu", "value": true}
+  ],
+  "sameAs": ["https://www.instagram.com/thepizzagardenau/", "https://www.facebook.com/share/1Agjr1dEgw/"]
+}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Courier+Prime:ital,wght@0,400;0,700;1,400&family=Yellowtail&display=swap">
+<style>
+/* Layout: cream "paper" page, tilted condensed headlines echoing the logo, checkerboard strips between rooms, sticky two-button bar on phones */
+:root{
+  --cream:#FCF6EB;      /* logo ground */
+  --paper:#F6EBD6;      /* deeper cream for alternating bands */
+  --red:#B52218;        /* logo red */
+  --red-deep:#8C170F;
+  --basil:#3F5B2C;      /* the "garden" */
+  --ink:#2B1A14;        /* warm near-black for text */
+  --ink-soft:#5E4A40;
+  --display:"Anton","Impact","Haettenschweiler","Arial Narrow Bold",sans-serif;
+  --body:"Courier Prime","Courier New",ui-monospace,monospace;
+  --script:"Yellowtail","Brush Script MT",cursive;
+  --gutter:clamp(16px,5vw,48px);
+  --max:1120px;
+  --check:22px;
+  color-scheme:light;
+}
+*,*::before,*::after{box-sizing:border-box}
+[hidden]{display:none!important}
+html{scroll-behavior:smooth;scroll-padding-top:84px}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{background:var(--cream);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.6;margin:0;-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--basil);outline-offset:3px}
+.news :focus-visible,.gift :focus-visible,footer :focus-visible,.drawer :focus-visible,.ticker :focus-visible{outline-color:var(--cream)}
+.wrap{max-width:var(--max);margin-inline:auto;padding-inline:var(--gutter)}
+h1,h2,h3{font-family:var(--display);font-weight:400;text-transform:uppercase;line-height:.95;letter-spacing:.01em;margin:0;text-wrap:balance}
+.tilt{display:inline-block}
+.script{font-family:var(--script);text-transform:none;color:var(--basil);font-weight:400;letter-spacing:0}
+.eyebrow{font-family:var(--body);font-weight:700;font-size:.78rem;letter-spacing:.18em;text-transform:uppercase;color:var(--red)}
+p{margin:0}
+.prose{display:grid;gap:1em;max-width:62ch;color:var(--ink-soft)}
+
+/* checkerboard strip, straight from the logo */
+.checks{height:calc(var(--check)*2);background:
+  conic-gradient(var(--red) 25%,transparent 0 50%,var(--red) 0 75%,transparent 0) 0 0/calc(var(--check)*2) calc(var(--check)*2)}
+.checks.on-red{background:conic-gradient(var(--cream) 25%,transparent 0 50%,var(--cream) 0 75%,transparent 0) 0 0/calc(var(--check)*2) calc(var(--check)*2)}
+.checks.slim{--check:12px}
+
+/* buttons */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.5em;font-family:var(--body);font-weight:700;font-size:.85rem;letter-spacing:.12em;text-transform:uppercase;text-decoration:none;padding:.95em 1.5em;border:2px solid currentColor;border-radius:999px;transition:transform .15s ease,background .15s ease,color .15s ease;cursor:pointer}
+.btn:hover{transform:translateY(-2px)}
+.btn-red{background:var(--red);border-color:var(--red);color:var(--cream)}
+.btn-red:hover{background:var(--red-deep);border-color:var(--red-deep)}
+.btn-basil{background:var(--basil);border-color:var(--basil);color:var(--cream)}
+.btn-line{background:transparent;color:var(--red)}
+.btn-line:hover{background:var(--red);color:var(--cream);border-color:var(--red)}
+.btn-cream{background:var(--cream);border-color:var(--cream);color:var(--red)}
+
+/* header */
+.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:40;background:var(--cream);border-bottom:2px solid var(--red)}
+.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-block:10px}
+.top-logo img{height:54px;width:auto}
+.top-nav{display:none;gap:28px;align-items:center}
+.top-nav a{font-family:var(--body);font-weight:700;font-size:.8rem;letter-spacing:.14em;text-transform:uppercase;text-decoration:none;color:var(--ink)}
+.top-nav a:hover{color:var(--red)}
+.top-nav a.btn-red,.top-nav a.btn-red:hover{color:var(--cream)}
+.top-nav a.btn-line{color:var(--red)}.top-nav a.btn-line:hover{color:var(--cream)}
+@media (max-width:1120px){.top-nav{gap:20px}.top-nav a[href="#instagram"],.top-nav a[href="#about"]{display:none}}
+.burger{background:none;border:0;padding:10px;cursor:pointer;color:var(--red)}
+.burger span{display:block;width:30px;height:3px;background:currentColor;border-radius:2px}
+.burger span+span{margin-top:6px}
+@media (min-width:900px){.top-nav{display:flex}.burger{display:none}}
+
+/* full-screen menu (phone) */
+.drawer{position:fixed;inset:0;z-index:60;background:var(--red);color:var(--cream);display:flex;flex-direction:column;padding:calc(env(safe-area-inset-top,0px) + 14px) var(--gutter) calc(env(safe-area-inset-bottom,0px) + 24px);overflow-y:auto}
+.drawer-head{display:flex;justify-content:space-between;align-items:center}
+.drawer-head img{height:58px;width:auto}
+.close{background:none;border:0;color:var(--cream);font-size:2.6rem;line-height:1;cursor:pointer;padding:6px 10px}
+.drawer nav{display:grid;margin-top:28px;border-top:1px solid rgba(252,246,235,.35)}
+.drawer nav a{font-family:var(--display);font-size:2.4rem;text-transform:uppercase;text-decoration:none;padding:.32em 0;border-bottom:1px solid rgba(252,246,235,.35)}
+.drawer .checks{margin-top:auto;margin-inline:calc(var(--gutter)*-1)}
+.drawer-meta{margin-block:24px;font-size:.9rem;display:grid;gap:4px}
+
+/* hero: full-bleed photo that slowly drifts, words sit below it on cream */
+.hero{position:relative;height:min(50svh,560px);min-height:300px;overflow:hidden;background:var(--paper)}
+.hero-media{position:absolute;inset:0}
+.hero-media img,.hero-media video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 50%;animation:drift 24s ease-in-out infinite alternate;will-change:transform}
+.hero-media video{animation:none}
+@keyframes drift{0%{transform:scale(1.12) translate(-3.5%,-1.5%)}100%{transform:scale(1.12) translate(3.5%,1.5%)}}
+@media (min-width:900px){.hero{height:min(50svh,640px)}}
+.hero-below{background:var(--cream)}
+.hero-copy{display:grid;gap:20px;justify-items:start;padding-block:clamp(28px,6vw,56px) clamp(36px,6vw,60px)}
+.hero-copy h1{font-size:clamp(2.8rem,10vw,5rem);color:var(--red);max-width:14ch;line-height:.92}
+.hero-ctas{display:flex;flex-wrap:wrap;gap:12px}
+.hero-open{font-size:.85rem;font-weight:700;letter-spacing:.06em;color:var(--basil);display:flex;align-items:center;gap:8px}
+.hero-open i{width:10px;height:10px;border-radius:50%;background:var(--basil);display:inline-block;box-shadow:0 0 0 4px rgba(63,91,44,.18)}
+.hero-open.closed{color:var(--red)}.hero-open.closed i{background:var(--red);box-shadow:0 0 0 4px rgba(181,34,24,.15)}
+.news-pill{display:inline-flex;align-items:center;gap:10px;background:var(--red);color:var(--cream);text-decoration:none;font-weight:700;font-size:.74rem;letter-spacing:.14em;text-transform:uppercase;padding:.55em .55em .55em 1em;border-radius:999px}
+.news-pill b{background:var(--cream);color:var(--red);border-radius:999px;padding:.35em .8em;font-weight:700}
+.news-pill:hover b{background:var(--basil);color:var(--cream)}
+.hero-copy>*{animation:rise .8s cubic-bezier(.2,.8,.2,1) both}
+.hero-copy>*:nth-child(2){animation-delay:.08s}.hero-copy>*:nth-child(3){animation-delay:.16s}.hero-copy>*:nth-child(4){animation-delay:.24s}
+@keyframes rise{from{transform:translateY(22px);opacity:0}}
+@media (min-width:900px){.hero-copy{grid-template-columns:1fr auto;align-items:end;column-gap:48px}.hero-copy .news-pill{grid-column:1/-1}.hero-copy h1{grid-row:2}.hero-copy .hero-ctas{grid-row:2;align-self:end;padding-bottom:.4em}.hero-copy .hero-open{grid-column:1/-1}}
+
+/* marquee */
+.ticker{background:var(--red);color:var(--cream);overflow:hidden;white-space:nowrap;padding-block:14px}
+.ticker-track{display:inline-flex;gap:0;animation:roll 38s linear infinite}
+.ticker span{font-family:var(--display);font-size:clamp(1.6rem,5vw,2.4rem);text-transform:uppercase;letter-spacing:.02em;padding-inline:.55em;display:inline-flex;align-items:center;gap:1.1em}
+.ticker span::after{content:"";width:.42em;height:.42em;background:var(--cream);transform:rotate(-8deg)}
+@keyframes roll{to{transform:translateX(-50%)}}
+@media (prefers-reduced-motion:reduce){.ticker-track{animation:none}}
+
+/* sections */
+section{padding-block:clamp(56px,10vw,104px)}
+.sec-head{display:grid;gap:10px;margin-bottom:clamp(28px,5vw,44px)}
+.sec-head h2{font-size:clamp(2.8rem,10vw,5rem);color:var(--red)}
+.sec-head h2 .tilt{max-width:13ch}
+.sec-head h2 .script{font-size:.6em;margin-left:.1em}
+
+/* about */
+.news{background:var(--basil);color:var(--cream)}
+.news-grid{display:grid;gap:28px;align-items:start}
+.news .sec-head{margin-bottom:0}
+.news .sec-head h2{color:var(--cream)}
+.news .sec-head h2 .tilt{max-width:16ch}
+@media (min-width:900px){.news .sec-head h2{font-size:clamp(3rem,5.4vw,4.4rem)}}
+.news-tag{justify-self:start;background:var(--red);color:var(--cream);font-weight:700;font-size:.78rem;letter-spacing:.18em;text-transform:uppercase;padding:.5em 1em;border-radius:999px}
+.news .prose{color:rgba(252,246,235,.9);font-size:1.05rem}
+.news-lead{font-family:var(--display);font-size:clamp(1.6rem,5vw,2.2rem);line-height:1.1;text-transform:uppercase;color:var(--cream)}
+.btn-line-cream{background:transparent;color:var(--cream);border-color:var(--cream)}
+.btn-line-cream:hover{background:var(--cream);color:var(--basil)}
+@media (min-width:900px){.news-grid{grid-template-columns:1fr 1fr;gap:72px;align-items:center}}
+
+/* community */
+.community{background:var(--paper)}
+.pillars{display:grid;gap:18px}
+.pillar{background:var(--cream);border:2px solid var(--red);border-radius:18px;padding:26px 24px;display:grid;gap:10px;align-content:start}
+.pillar svg{width:46px;height:46px}
+.pillar h3{font-size:1.7rem;color:var(--red)}
+.pillar p{color:var(--ink-soft);font-size:.95rem}
+@media (min-width:900px){.pillars{grid-template-columns:repeat(3,1fr)}}
+
+/* full menu */
+.menu-card{background:#FFFDF8;border:2px solid var(--red);border-radius:22px;padding:clamp(20px,4vw,44px)}
+.tabs{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:28px}
+.tab{flex:none;min-height:44px;font-family:var(--body);font-weight:700;font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;padding:.7em 1.1em;border-radius:999px;border:2px solid var(--red);background:transparent;color:var(--red);cursor:pointer}
+.tab[aria-selected="true"]{background:var(--red);color:var(--cream)}
+.wave{height:10px;margin:8px 0 18px;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='10' viewBox='0 0 24 10'%3E%3Cpath d='M0 5 Q6 0 12 5 T24 5' fill='none' stroke='%23B52218' stroke-width='1.4'/%3E%3C/svg%3E") repeat-x 0 50%/24px 10px}
+.m-group{margin-bottom:34px}
+.m-group:last-child{margin-bottom:0}
+.m-group h3{font-family:var(--body);font-weight:700;font-size:1rem;letter-spacing:.24em;color:var(--red)}
+.m-note{font-size:.82rem;color:var(--basil);font-style:italic;margin:-6px 0 16px}
+.m-list{display:grid;gap:18px 48px}
+@media (min-width:760px){.m-list{grid-template-columns:1fr 1fr}}
+.m-item{min-width:0}
+.m-item .row{display:flex;gap:10px;align-items:baseline;font-weight:700;text-transform:uppercase;letter-spacing:.04em;font-size:.95rem}
+.m-item .row .dots{flex:1;border-bottom:1.5px dotted rgba(181,34,24,.45);transform:translateY(-4px);min-width:16px}
+.m-item .price{font-variant-numeric:tabular-nums;color:var(--red);white-space:nowrap}
+.m-item .tag{font-size:.68rem;letter-spacing:.08em;color:var(--basil);font-weight:700}
+.m-item .desc{font-size:.85rem;color:var(--ink-soft);line-height:1.5;margin-top:2px}
+.m-legend{font-size:.78rem;color:var(--ink-soft);margin-top:28px;padding-top:16px;border-top:1px dashed rgba(181,34,24,.4)}
+.wine-head{display:flex;justify-content:flex-end;gap:24px;font-size:.7rem;letter-spacing:.16em;color:var(--ink-soft);font-weight:700;margin-bottom:-8px}
+
+/* gift card */
+.gift{background:var(--red);color:var(--cream)}
+.gift-grid{display:grid;gap:36px;align-items:center}
+.gift h2{font-size:clamp(3rem,11vw,5.4rem)}
+.gift h2 .script{color:var(--cream);font-size:.6em;display:block;margin-top:.1em}
+.gift p{max-width:44ch;margin-block:18px 26px;opacity:.92}
+.gift-photo{position:relative;justify-self:center;width:min(100%,460px)}
+.gift-photo>img{width:100%;aspect-ratio:1;object-fit:cover;border-radius:50%;border:8px solid var(--cream);box-shadow:0 0 0 3px var(--red),0 0 0 6px var(--cream)}
+.giftcard{position:absolute;left:-4%;bottom:6%;background:var(--cream);color:var(--red);border-radius:12px;padding:12px 16px 10px;transform:rotate(-8deg);box-shadow:0 10px 24px rgba(43,26,20,.28);width:56%}
+.giftcard img{width:100%;height:auto}
+.giftcard small{display:block;font-weight:700;font-size:.62rem;letter-spacing:.16em;text-align:center;margin-top:4px}
+@media (min-width:900px){.gift-grid{grid-template-columns:1.1fr .9fr}}
+
+/* instagram */
+.ig-head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:end;gap:18px;margin-bottom:28px}
+.ig-handle{font-family:var(--script);font-size:clamp(1.8rem,5vw,2.4rem);color:var(--basil);text-decoration:none}
+.ig-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(6px,1.4vw,14px)}
+.ig-grid a{position:relative;display:block;aspect-ratio:1;overflow:hidden;border-radius:10px;background:var(--paper)}
+.ig-grid img{width:100%;height:100%;object-fit:cover;transition:transform .3s ease}
+.ig-grid a:hover img{transform:scale(1.05)}
+.ig-grid .ph{display:grid;place-items:center;height:100%;background:conic-gradient(var(--red) 25%,var(--cream) 0 50%,var(--red) 0 75%,var(--cream) 0) 0 0/40% 40%}
+.ig-grid .ph span{background:var(--cream);color:var(--red);font-family:var(--display);font-size:clamp(1rem,3vw,1.5rem);padding:.2em .5em;text-transform:uppercase;transform:rotate(-6deg)}
+@media (min-width:900px){.ig-grid{grid-template-columns:repeat(6,1fr)}}
+.social-row{display:flex;flex-wrap:wrap;gap:12px;margin-top:24px}
+.social-row svg{flex:none}
+
+/* visit */
+.visit{background:var(--paper)}
+.visit-grid{display:grid;gap:40px}
+@media (min-width:900px){.visit-grid{grid-template-columns:1fr 1fr;gap:56px 72px}.mapwide{grid-column:1/-1}}
+.hours{width:100%;max-width:560px;border-collapse:collapse;font-variant-numeric:tabular-nums}
+.hours th,.hours td{text-align:left;padding:12px 0;border-bottom:1.5px dotted rgba(181,34,24,.45);font-size:.95rem}
+.hours th{font-weight:700;text-transform:uppercase;letter-spacing:.08em;width:46%}
+.hours td{text-align:right}
+.hours tr.today th,.hours tr.today td{color:var(--red)}
+.hours th{white-space:nowrap}
+.hours tr.today th::after{content:"today";display:inline-block;margin-left:8px;padding:2px 7px;border-radius:999px;background:var(--basil);color:var(--cream);font-size:.62rem;letter-spacing:.08em;vertical-align:2px}
+.hours .closed td{color:var(--ink-soft)}
+.contact{display:grid;gap:22px}
+.contact h3{font-family:var(--body);font-weight:700;font-size:.78rem;letter-spacing:.2em;color:var(--red);margin-bottom:4px;line-height:1.3}
+.contact .big{padding-block:4px;font-family:var(--display);font-size:clamp(1.8rem,6vw,2.4rem);text-transform:uppercase;line-height:1.05;text-decoration:none;display:block}
+.contact a.big:hover{color:var(--red)}
+.mapcard{display:block;border:2px solid var(--red);border-radius:18px;overflow:hidden;text-decoration:none;background:var(--cream)}
+.mapcard .map{position:relative;height:340px;background:var(--paper)}
+.mapcard iframe{position:absolute;inset:0;width:100%;height:100%;border:0;display:block;filter:grayscale(1) contrast(1.05)}
+.map-fallback{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;padding:24px;text-align:center;text-decoration:none;color:var(--ink)}
+.map-fallback svg{width:44px;height:44px;color:var(--red)}
+.map-fallback b{font-family:var(--display);font-weight:400;font-size:1.6rem;text-transform:uppercase;line-height:1}
+.map-fallback span{background:var(--red);color:var(--cream);font-weight:700;font-size:.75rem;letter-spacing:.12em;text-transform:uppercase;padding:.7em 1.1em;border-radius:999px}
+.map-actions{display:grid;grid-template-columns:1fr 1fr;border-top:2px solid var(--red)}
+.map-actions a{display:flex;justify-content:space-between;align-items:center;padding:14px 18px;font-weight:700;font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;color:var(--red);text-decoration:none;transition:background .2s,color .2s}
+.map-actions a+a{border-left:2px solid var(--red)}
+.map-actions a:hover{background:var(--red);color:var(--cream)}
+
+/* footer */
+footer{background:var(--red);color:var(--cream);padding-block:48px calc(110px + env(safe-area-inset-bottom,0px))}
+@media (min-width:900px){footer{padding-bottom:48px}}
+.foot{display:grid;gap:28px;justify-items:center;text-align:center}
+.foot img{width:min(240px,60vw)}
+.socials{display:flex;gap:14px}
+.socials a{width:48px;height:48px;border:2px solid var(--cream);border-radius:50%;display:grid;place-items:center}
+.socials a:hover{background:var(--cream);color:var(--red)}
+.socials svg{width:22px;height:22px}
+.foot-links{display:flex;flex-wrap:wrap;justify-content:center;gap:10px 24px;font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;font-weight:700}
+.foot-links a{text-decoration:none;padding:10px 4px;display:inline-block}
+.foot small{font-size:.75rem}
+
+/* sticky action bar (phones) */
+.actionbar{position:fixed;left:0;right:0;bottom:0;z-index:50;display:grid;grid-template-columns:1fr 1fr;gap:10px;padding:10px 12px calc(10px + env(safe-area-inset-bottom,0px));background:linear-gradient(transparent,rgba(252,246,235,.96) 30%)}
+.actionbar .btn{padding:1em .6em;font-size:.8rem;box-shadow:0 6px 18px rgba(43,26,20,.18)}
+@media (min-width:900px){.actionbar{display:none}}
+.actionbar{transition:transform .45s cubic-bezier(.2,.8,.2,1),opacity .3s;transform:translateY(110%);opacity:0;pointer-events:none}
+.actionbar.show{transform:none;opacity:1;pointer-events:auto}
+@media (max-width:600px){.giftcard{left:3%}}
+
+/* ---------- motion ---------- */
+.checks{animation:checkroll 18s linear infinite}
+@keyframes checkroll{to{background-position:calc(var(--check)*-4) 0}}
+.top-logo img{transition:transform .3s cubic-bezier(.3,1.6,.5,1)}
+.top-logo:hover img{transform:rotate(-6deg) scale(1.06)}
+/* scroll reveal: only applied by script to things below the fold, so the page is complete without it */
+.rv{transition:opacity .7s ease,transform .8s cubic-bezier(.2,.8,.2,1);transition-delay:var(--d,0s)}
+.rv.pre{opacity:0;transform:translateY(34px)}
+.tilt.rv.pre{transform:translateY(16px)}
+.pillar svg{transition:transform .35s cubic-bezier(.3,1.6,.5,1)}
+.pillar:hover svg{transform:rotate(-12deg) scale(1.15)}
+.pillar{transition:transform .25s ease,box-shadow .25s ease}
+.pillar:hover{transform:translateY(-4px) rotate(-.6deg);box-shadow:6px 6px 0 var(--red)}
+#panel.swap{animation:panel .45s cubic-bezier(.2,.8,.2,1)}
+@keyframes panel{from{opacity:0;transform:translateY(12px)}}
+.btn-red,.btn-basil{position:relative;overflow:hidden}
+.btn-red::after,.btn-basil::after{content:"";position:absolute;inset:0;background:linear-gradient(110deg,transparent 30%,rgba(252,246,235,.28) 50%,transparent 70%);transform:translateX(-120%);transition:transform .6s ease}
+.btn-red:hover::after,.btn-basil:hover::after{transform:translateX(120%)}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none!important;transition:none!important}
+  .rv.pre{opacity:1;transform:none}
+}
+</style>
+</head>
+<body>
+
+
+<!-- ============ EDIT THESE LINKS BEFORE GOING LIVE ============ -->
+<script>
+window.PIZZA_GARDEN = {
+  orderUrl:   "https://thepizzagarden.bitebusiness.com",   // online ordering
+  bookingUrl: "https://restaurant-1787543035.resos.com/booking",           // table bookings
+  giftCardUrl:"",   // gift card shop link
+  instagram:  "thepizzagardenau",   // Instagram handle, without the @
+  beholdFeedId: "",  // live Instagram feed: paste your Behold feed ID here (behold.so, free) and the grid fills with your latest posts
+  facebook:   "https://www.facebook.com/share/1Agjr1dEgw/",   // Facebook page
+  phone:      "07 4800 5359",
+  email:      "hello@thepizzagarden.com.au"
+};
+</script>
+
+<header class="top">
+  <div class="wrap">
+    <a class="top-logo" href="#home" aria-label="The Pizza Garden home"><img src="img/logo-red.png" alt="The Pizza Garden" width="61" height="54"></a>
+    <nav class="top-nav" aria-label="Main">
+      <a href="#about">About</a>
+      <a href="#menu">Menu</a>
+      <a href="#gift">Gift cards</a>
+      <a href="#instagram">Instagram</a>
+      <a href="#visit">Visit</a>
+      <a class="btn btn-line js-book" href="#visit" style="padding:.75em 1.2em">Book a table</a>
+      <a class="btn btn-red js-order" href="#menu" style="padding:.75em 1.2em">Order online</a>
+    </nav>
+    <button class="burger" id="burger" aria-label="Open menu" aria-controls="drawer" aria-expanded="false"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<div class="drawer" id="drawer" hidden>
+  <div class="drawer-head">
+    <img src="img/logo-cream.png" alt="The Pizza Garden">
+    <button class="close" id="close" aria-label="Close menu">&times;</button>
+  </div>
+  <nav aria-label="Mobile">
+    <a href="#about">About us</a>
+    <a href="#menu">Our menu</a>
+    <a href="#gift">Gift cards</a>
+    <a href="#instagram">Instagram</a>
+    <a href="#visit">Hours &amp; location</a>
+  </nav>
+  <div class="drawer-meta">
+    <span>Shop 4, 32 Asquith Street, Morningside QLD 4170</span>
+    <span><a class="js-ig" href="https://www.instagram.com/thepizzagardenau/" target="_blank" rel="noopener">Instagram</a> · <a class="js-fb" href="https://www.facebook.com/share/1Agjr1dEgw/" target="_blank" rel="noopener">Facebook</a></span>
+    <span>07 4800 5359</span>
+  </div>
+  <div class="checks on-red slim"></div>
+</div>
+
+<main id="home">
+  <!-- HERO -->
+  <div class="hero">
+    <div class="hero-media">
+      <!--
+        HERO VIDEO (optional): put a short muted clip at video/hero.mp4 and uncomment the line below.
+        <video autoplay muted loop playsinline poster="img/spread.jpg"><source src="video/hero.mp4" type="video/mp4"></video>
+      -->
+      <img src="img/spread.jpg" alt="Pizzas, pasta and salads from The Pizza Garden on a wooden table" fetchpriority="high">
+    </div>
+  </div>
+  <div class="hero-below">
+    <div class="wrap hero-copy">
+      <a class="news-pill" href="#about">Under new ownership <b>Meet Phill →</b></a>
+      <h1>Pizza, pasta &amp; wine in Morningside</h1>
+      <div class="hero-ctas">
+        <a class="btn btn-red js-order" href="#menu">Order online</a>
+        <a class="btn btn-line js-book" href="#visit">Book a table</a>
+      </div>
+      <span class="hero-open" id="openNow"><i></i><span>Open Wednesday to Sunday</span></span>
+    </div>
+  </div>
+  <div class="ticker" aria-hidden="true"><div class="ticker-track" id="ticker"></div></div>
+
+  <!-- ABOUT -->
+  <section id="about" class="news">
+    <div class="wrap news-grid">
+      <div class="sec-head">
+        <span class="news-tag">Big news</span>
+        <h2><span class="tilt">Meet Phill, our new&nbsp;owner</span></h2>
+      </div>
+      <div class="prose">
+        <p class="news-lead">New owner. Same garden. Same homemade pizza &amp; pasta.</p>
+        <p>Phill opened his first pizzeria in Korea. Now he's bringing that experience to Asquith Street, and he can't wait to start feeding Morningside.</p>
+        <p>Grab a table outside, order a pizza and come say hi.</p>
+        <div class="hero-ctas" style="margin-top:8px"><a class="btn btn-cream js-book" href="#visit">Book a table</a><a class="btn btn-line-cream js-order" href="#menu">Order online</a></div>
+      </div>
+    </div>
+  </section>
+
+  <div class="checks slim" aria-hidden="true"></div>
+
+  <!-- COMMUNITY -->
+  <section class="community" id="community">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="eyebrow">Why people keep coming back</span>
+        <h2><span class="tilt">A matter of community</span></h2>
+      </div>
+      <div class="pillars">
+        <article class="pillar">
+          <svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="28" r="15" fill="#B52218"/><path d="M24 13c-2-5-7-7-11-6 2 4 6 6 11 6zm0 0c2-5 7-7 11-6-2 4-6 6-11 6z" fill="#3F5B2C"/><path d="M24 13v-6" stroke="#3F5B2C" stroke-width="2.5" stroke-linecap="round"/><ellipse cx="18" cy="24" rx="3" ry="4.5" fill="#FCF6EB" opacity=".55"/></svg>
+          <h3>Quality ingredients</h3>
+          <p>Italian ingredients alongside fresh local produce, in every dish.</p>
+        </article>
+        <article class="pillar">
+          <svg viewBox="0 0 48 48" aria-hidden="true"><ellipse cx="24" cy="31" rx="9" ry="8" fill="#B52218"/><ellipse cx="12" cy="21" rx="4" ry="5" fill="#B52218"/><ellipse cx="36" cy="21" rx="4" ry="5" fill="#B52218"/><ellipse cx="19" cy="13" rx="4" ry="5.5" fill="#B52218"/><ellipse cx="29" cy="13" rx="4" ry="5.5" fill="#B52218"/></svg>
+          <h3>Family &amp; pet friendly</h3>
+          <p>There's a kids menu, room to sit outside in the garden, and dogs are welcome at the outdoor tables.</p>
+        </article>
+        <article class="pillar">
+          <svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="19" fill="none" stroke="#B52218" stroke-width="3"/><text x="24" y="30.5" text-anchor="middle" font-family="Anton,Impact,sans-serif" font-size="17" fill="#3F5B2C">GF</text></svg>
+          <h3>Dietary needs covered</h3>
+          <p>Gluten-free bases and vegan cheese on any pizza, plus several vegan dishes on the menu.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- MENU -->
+  <section id="menu">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="eyebrow">Dine in or takeaway</span>
+        <h2><span class="tilt">Our menu</span></h2>
+      </div>
+
+
+      <div class="menu-card" id="menuCard">
+        <div class="tabs" role="tablist" id="tabs" aria-label="Menu sections"></div>
+        <div id="panel" role="tabpanel"></div>
+        <div style="display:flex;flex-wrap:wrap;gap:12px;margin-top:28px"><a class="btn btn-red js-order" href="#menu">Order online</a><a class="btn btn-line js-book" href="#visit">Book a table</a></div>
+        <p class="m-legend">(V) vegetarian · (VG) vegan · (GF) gluten free. Gluten-free base +6 and vegan cheese +4 on any pizza. Please tell us about allergies when you order.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- GIFT CARD -->
+  <section class="gift" id="gift">
+    <div class="wrap gift-grid">
+      <div>
+        <span class="eyebrow" style="color:var(--cream)">Gift cards</span>
+        <h2><span class="tilt">Purchase a gift card</span></h2>
+        <p>Gift cards can be used on anything on the menu. Good for birthdays, anniversaries or any occasion. Pick one up in store or give us a call.</p>
+        <a class="btn btn-cream js-gift" href="tel:+61748005359">Call 07 4800 5359</a>
+      </div>
+      <div class="gift-photo">
+        <img src="img/centre-pizza.jpg" alt="Pizza with rocket, cherry tomatoes and parmesan" loading="lazy">
+        <div class="giftcard"><img src="img/logo-red.png" alt=""><small>GIFT CARD</small></div>
+      </div>
+    </div>
+  </section>
+  <div class="checks" aria-hidden="true" style="background-color:var(--cream)"></div>
+
+  <!-- INSTAGRAM -->
+  <section id="instagram">
+    <div class="wrap">
+      <div class="ig-head">
+        <div class="sec-head" style="margin:0">
+          <span class="eyebrow">Instagram</span>
+          <h2><span class="tilt">Follow along</span></h2>
+        </div>
+        <a class="ig-handle js-ig" href="https://www.instagram.com/thepizzagardenau/" target="_blank" rel="noopener">@thepizzagardenau</a>
+      </div>
+
+      <div id="ig-live"></div>
+
+      <div class="ig-grid" id="igPreview">
+        <a href="https://www.instagram.com/thepizzagardenau/" target="_blank" rel="noopener" class="js-ig" aria-label="Prosciutto pizza on Instagram"><img src="img/prosciutto.jpg" alt="Prosciutto pizza" loading="lazy"></a>
+        <a href="https://www.instagram.com/thepizzagardenau/" target="_blank" rel="noopener" class="js-ig" aria-label="Conchiglioni on Instagram"><img src="img/ravioli.jpg" alt="Conchiglioni, stuffed pasta shells in Napoli sauce" loading="lazy"></a>
+        <a href="https://www.instagram.com/thepizzagardenau/" target="_blank" rel="noopener" class="js-ig" aria-label="Zucchini and prawn pizza on Instagram"><img src="img/zucchine.jpg" alt="Zucchine e gamberetti pizza" loading="lazy"></a>
+        <a href="https://www.instagram.com/thepizzagardenau/" target="_blank" rel="noopener" class="js-ig" aria-label="Arancini on Instagram"><img src="img/arancini.jpg" alt="Arancini with rocket" loading="lazy"></a>
+        <a href="https://www.instagram.com/thepizzagardenau/" target="_blank" rel="noopener" class="js-ig" aria-label="Ravioli on Instagram"><img src="img/gnocchi.jpg" alt="Spinach and ricotta ravioli in a creamy sauce" loading="lazy"></a>
+        <a href="https://www.instagram.com/thepizzagardenau/" target="_blank" rel="noopener" class="js-ig" aria-label="Calzone on Instagram"><img src="img/calzone.jpg" alt="Calzone with mushrooms and basil" loading="lazy"></a>
+      </div>
+      <div class="social-row">
+        <a class="btn btn-red js-ig" href="https://www.instagram.com/thepizzagardenau/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>Follow on Instagram</a>
+        <a class="btn btn-line js-fb" href="https://www.facebook.com/share/1Agjr1dEgw/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18" aria-hidden="true"><path d="M14 8.5V6.8c0-.8.5-1 1-1h2V2.5h-2.8C11.1 2.5 10 4.6 10 6.6v1.9H7.5V12H10v9.5h4V12h2.7l.4-3.5H14z"/></svg>Like on Facebook</a>
+      </div>
+    </div>
+  </section>
+
+  <div class="checks slim" aria-hidden="true"></div>
+
+  <!-- VISIT -->
+  <section class="visit" id="visit">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="eyebrow">Hours &amp; location</span>
+        <h2><span class="tilt">Swing by soon</span></h2>
+      </div>
+      <div class="visit-grid">
+        <div>
+          <table class="hours" id="hours">
+            <tbody>
+              <tr data-day="1" class="closed"><th>Monday</th><td>Closed</td></tr>
+              <tr data-day="2" class="closed"><th>Tuesday</th><td>Closed</td></tr>
+              <tr data-day="3"><th>Wednesday</th><td>5.00 – 8.00 pm</td></tr>
+              <tr data-day="4"><th>Thursday</th><td>5.00 – 8.00 pm</td></tr>
+              <tr data-day="5"><th>Friday</th><td>4.00 – 9.00 pm</td></tr>
+              <tr data-day="6"><th>Saturday</th><td>4.00 – 9.00 pm</td></tr>
+              <tr data-day="0"><th>Sunday</th><td>4.00 – 8.00 pm</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="contact">
+          <div>
+            <h3>Find us</h3>
+            <span class="big">Shop 4, 32 Asquith Street<br>Morningside QLD 4170</span>
+          </div>
+          <div>
+            <h3>Call</h3>
+            <a class="big js-tel" href="tel:+61748005359">07 4800 5359</a>
+          </div>
+          <div>
+            <h3>Email</h3>
+            <a class="big js-mail" href="mailto:hello@thepizzagarden.com.au" style="font-size:clamp(1.1rem,4.4vw,1.6rem);display:inline-block;padding:8px 0">hello@thepizzagarden.com.au</a>
+          </div>
+
+        </div>
+        <div class="mapcard mapwide">
+            <div class="map" id="mapBox">
+              <!-- Live Google Map: no API key needed. Hidden only inside the Claude preview, which blocks embeds. -->
+              <iframe id="mapFrame" title="Map showing The Pizza Garden, 32 Asquith Street, Morningside" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                data-src="https://maps.google.com/maps?q=The%20Pizza%20Garden%2C%2032%20Asquith%20St%2C%20Morningside%20QLD%204170&amp;z=16&amp;output=embed"></iframe>
+              <a class="map-fallback" id="mapFallback" href="https://www.google.com/maps/search/?api=1&amp;query=The+Pizza+Garden+32+Asquith+Street+Morningside+QLD+4170" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7c0 5.2 7 13 7 13s7-7.8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></svg><b>The Pizza Garden</b><small>Shop 4, 32 Asquith St, Morningside</small><span>Open in Google Maps</span></a>
+            </div>
+            <div class="map-actions">
+              <a href="https://www.google.com/maps/dir/?api=1&amp;destination=The+Pizza+Garden+32+Asquith+Street+Morningside+QLD+4170" target="_blank" rel="noopener">Google Maps <span aria-hidden="true">→</span></a>
+              <a href="https://maps.apple.com/?daddr=32+Asquith+Street,+Morningside+QLD+4170&amp;q=The+Pizza+Garden" target="_blank" rel="noopener">Apple Maps <span aria-hidden="true">→</span></a>
+            </div>
+          </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap foot">
+    <img src="img/logo-cream.png" alt="The Pizza Garden">
+    <div class="socials">
+      <a class="js-ig" href="https://www.instagram.com/thepizzagardenau/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></a>
+      <a class="js-fb" href="https://www.facebook.com/share/1Agjr1dEgw/" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M14 8.5V6.8c0-.8.5-1 1-1h2V2.5h-2.8C11.1 2.5 10 4.6 10 6.6v1.9H7.5V12H10v9.5h4V12h2.7l.4-3.5H14z"/></svg></a>
+    </div>
+    <div class="foot-links">
+      <a href="#menu">Menu</a><a href="#gift">Gift cards</a><a href="#visit">Visit</a><a href="#instagram">Instagram</a>
+    </div>
+    <small>© <span id="yr">2026</span> The Pizza Garden · Shop 4, 32 Asquith Street, Morningside QLD 4170</small>
+  </div>
+</footer>
+
+<div class="actionbar">
+  <a class="btn btn-basil js-book" href="#visit">Book a table</a>
+  <a class="btn btn-red js-order" href="#menu">Order online</a>
+</div>
+
+<script>
+(function(){
+  const C = window.PIZZA_GARDEN || {};
+
+  /* ---------- MENU DATA (edit prices here) ---------- */
+  const MENU = {
+    pizza: { label:"Pizza", groups:[
+      { title:"Classic pizza", note:"All on a tomato base with mozzarella", items:[
+        ["Margherita","24","Basil","V"],
+        ["Ham & pineapple","25","Ham and pineapple"],
+        ["Pepperoni","25","Pepperoni"],
+        ["Napoletana","25","Olives, anchovies and oregano"],
+        ["Capricciosa","26","Ham, mushrooms and olives"],
+        ["Salsiccia e funghi","26","Mushrooms and Italian sausage"],
+        ["Calabrese","26","Spicy salami, roast capsicum and olives"],
+        ["Vegetariana","27","Onion, zucchini, rocket, cherry tomatoes and flaked almonds","V"],
+        ["Quattro formaggi","28","Gorgonzola, smoked provolone and parmesan","V"],
+        ["Pollo","29","Mushrooms, onion, chicken and pancetta"],
+        ["Meat lovers","32","Ham, hot salami, pepperoni and Italian sausage"]
+      ]},
+      { title:"Gourmet pizza", items:[
+        ["Funghi e tartufo","28","Smoked cheese, mushrooms, truffle sauce and basil"],
+        ["Mario","29","Tomato base, mozzarella, pepperoni, pancetta, pesto and parmesan"],
+        ["Luigi","29","Smoked cheese base, pancetta, cherry tomatoes, pesto, parmesan, rocket and pepper"],
+        ["Greca","29","Tomato base, mozzarella, pumpkin, onion, capsicum, olives and feta","V"],
+        ["Zucchine e gamberetti","30","Mozzarella base, zucchini, prawns, cherry tomatoes and garlic oil"],
+        ["Prosciutto","30","Tomato base, mozzarella, prosciutto, rocket and parmesan"],
+        ["Burrata","32","Tomato base, prosciutto, rocket and creamy burrata on top"],
+        ["Porcino","32","Tomato base, mozzarella, porcini mushrooms, Italian sausage, pancetta, truffle sauce and basil"]
+      ]},
+      { title:"Extras", items:[
+        ["Gluten-free base","6"],["Meat or prawns","5"],["Vegetables","4"],["Vegan cheese","4"],
+        ["Anchovies","4"],["Cheese","3"],["Sauces","1"],["Herbs","0.50"]
+      ]}
+    ]},
+    pasta: { label:"Pasta", groups:[
+      { title:"Gnocchi", note:"Homemade gnocchi", items:[
+        ["Napoli","24","House-made Napoli tomato sauce with fresh basil and extra virgin olive oil","VG"],
+        ["Basil pesto","26","Basil pesto with cherry tomatoes, fresh basil and parmesan. Add chicken +5","V"],
+        ["Quattro formaggi","28","Creamy four-cheese sauce with gorgonzola, parmesan, scamorza and buffalo","V"],
+        ["Truffle mushroom","29","Porcini, wild mushrooms and enoki in a creamy truffle sauce, finished with truffle oil","V"],
+        ["Italian sausage ragù","29","Rich tomato ragù with Italian pork sausage, fresh basil and crispy pancetta crumble"]
+      ]},
+      { title:"Pasta", items:[
+        ["Spaghetti Napoli","23","House-made Napoli sauce, fresh basil and extra virgin olive oil. Add Italian pork sausage +6","VG"],
+        ["Spaghetti pesto","23","Basil pesto, parmesan, cherry tomatoes, fresh basil and extra virgin olive oil. Add roasted chicken +6","V"],
+        ["Conchiglioni boscaiola","28","Large pasta shells filled with pancetta, mushrooms and béchamel, served over house-made Napoli sauce"],
+        ["Ricotta & spinach ravioli","30","Ricotta and spinach ravioli in a rich truffle cream sauce with wild mushrooms and enoki","V"],
+        ["Ricotta & spinach cannelloni","","Oven-baked cannelloni filled with ricotta and spinach, served on house-made Napoli sauce and finished with parmesan","V"],
+        ["Garlic prawn spaghetti","32","Prawns sautéed with garlic, cherry tomatoes, chilli, parsley and lemon, finished with parmesan and extra virgin olive oil"]
+      ]}
+    ]},
+    starters: { label:"Starters", groups:[
+      { title:"Entrée", items:[
+        ["Garlic focaccia","14","House-made pizza flatbread with garlic, rosemary and extra virgin olive oil","VG · GF OPTION"],
+        ["Crispy calamari","17","Lightly dusted in rice flour and fried until crisp, with rocket, fresh lemon, dill and garlic aioli","GF"],
+        ["Truffle mushroom arancini","18","Four golden risotto balls filled with mushroom, truffle and fior di latte mozzarella","V · GF"],
+        ["Caprese bruschetta","23","Toasted sourdough topped with cherry tomatoes, fior di latte, fresh basil and extra virgin olive oil","V · GF OPTION"]
+      ]},
+      { title:"Salad", items:[
+        ["Rucola e pera","19","Rocket, pear, shaved parmesan, walnuts, lemon dressing and extra virgin olive oil","V"],
+        ["Italian garden salad","19","Rocket, basil, pumpkin, red onion, capsicum, feta and Italian vinaigrette","V"],
+        ["Buffalo salad","23","Buffalo mozzarella, cherry tomatoes, rocket, basil, balsamic glaze and extra virgin olive oil","V"]
+      ]}
+    ]},
+    kids: { label:"Kids", groups:[
+      { title:"Little ones", note:"For children 12 years and under", items:[
+        ["Kids margherita","14","Classic tomato sauce and melted mozzarella","V"],
+        ["Ham & cheese pizza","15","Tomato sauce, ham and mozzarella"],
+        ["Ham & pineapple pizza","15","Tomato sauce, ham, pineapple and mozzarella"],
+        ["Chicken nuggets & chips","15","Five crispy chicken nuggets with chips and tomato sauce"],
+        ["Penne pomodoro","15","Penne tossed through our house-made Napoli sauce. Gluten-free available","VG"],
+        ["Penne ragù","17","Penne with our slow-cooked Italian pork sausage ragù. Gluten-free available"]
+      ]}
+    ]},
+    dessert: { label:"Desserts", groups:[
+      { title:"Desserts", items:[
+        ["Cannoli","8","Homemade cannoli shell filled with sweet ricotta and chocolate chips, finished with pistachios and dark chocolate"],
+        ["Tiramisù","14","Layers of coffee-soaked sponge, mascarpone cream, cocoa and chocolate"],
+        ["Nutella pizza","18","Sweet pizza topped with Nutella, banana, strawberries and crushed pistachios. Gluten-free base +2"],
+        ["Pistachio dolce pizza","20","Sweet pizza topped with pistachio paste, ricotta, fresh strawberries, dark chocolate and crushed pistachios. Gluten-free base +2"],
+        ["Gelato","","Our weekly selection is in the front display fridge"]
+      ]}
+    ]},
+    drinks: { label:"Drinks", groups:[
+      { title:"Cocktails", items:[
+        ["Aperol spritz","18"],["Mojito","18"],["Piña colada","18"],["Margarita","18"],
+        ["Espresso martini","20"],["Whiskey sour","20"],["Amaretto sour","20"],["Mocktails","12"]
+      ]},
+      { title:"Wine", note:"Glass / bottle", items:[
+        ["Prosecco DOC","10 / 44"],["Lunardi Pinot Grigio","12 / 55"],["Lunardi Soave","11 / 50"],
+        ["Sibiliana Roceno Rosato","11 / 50"],["Sangiovese Rubicone","13 / 59"],["Montepulciano d'Abruzzo","13 / 59"]
+      ]},
+      { title:"Beer & cider", note:"On tap", items:[
+        ["Black Hops Lay Day lager / pale ale","11"],["Black Hops ginger & apple cider","9.50","4.5%"],
+        ["Jug of tap beer","35","1.7 L"],["Peroni Red","9"],["Corona","9"]
+      ]},
+      { title:"Non-alcoholic", items:[
+        ["San Benedetto sparkling water","7.50"],["Panna still water","7.50"],
+        ["San Pellegrino","5","Aranciata or limonata"],["Can of soft drink","5","Coke, Coke No Sugar, Sprite, Sprite No Sugar"],
+        ["Lemon, lime & bitters","7"],["Kids popper","3","Apple, orange, apple blackcurrant or pineapple"]
+      ]}
+    ]}
+  };
+  window.PIZZA_GARDEN_MENU = MENU;
+
+  const order = ["pizza","pasta","starters","kids","dessert","drinks"];
+  const tabs = document.getElementById("tabs"), panel = document.getElementById("panel");
+  const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+  function render(key){
+    tabs.querySelectorAll(".tab").forEach(t => t.setAttribute("aria-selected", t.dataset.key === key));
+    panel.innerHTML = MENU[key].groups.map(g => `
+      <div class="m-group">
+        <h3>${esc(g.title.toUpperCase())}</h3>
+        <div class="wave" aria-hidden="true"></div>
+        ${g.note ? `<p class="m-note">${esc(g.note)}</p>` : ""}
+        <div class="m-list">
+          ${g.items.map(([n,p,d,t]) => `
+            <div class="m-item">
+              <div class="row"><span>${esc(n)}${t ? ` <span class="tag">(${esc(t)})</span>` : ""}</span>${p ? `<span class="dots"></span><span class="price">${esc(p)}</span>` : ""}</div>
+              ${d ? `<p class="desc">${esc(d)}</p>` : ""}
+            </div>`).join("")}
+        </div>
+      </div>`).join("");
+  }
+  tabs.innerHTML = order.map(k => `<button class="tab" role="tab" data-key="${k}">${MENU[k].label}</button>`).join("");
+  tabs.addEventListener("click", e => { const b = e.target.closest(".tab"); if (b) render(b.dataset.key); });
+  document.querySelectorAll("[data-jump]").forEach(b => b.addEventListener("click", () => {
+    render(b.dataset.jump);
+    document.getElementById("menuCard").scrollIntoView({behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth"});
+  }));
+  render("pizza");
+  tabs.addEventListener("click", () => { panel.classList.remove("swap"); void panel.offsetWidth; panel.classList.add("swap"); });
+
+  const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  /* ---------- live map (embeds are blocked inside the Claude preview only) ---------- */
+  const mf = document.getElementById("mapFrame");
+  if (/claude/i.test(location.hostname) || location.protocol === "file:") mf.remove();
+  else { mf.src = mf.dataset.src; document.getElementById("mapBox").classList.add("live"); document.getElementById("mapFallback").remove(); }
+
+  /* ---------- scroll reveal (only for things below the fold; failsafe shows all) ---------- */
+  if (!reduce && "IntersectionObserver" in window) {
+    const targets = document.querySelectorAll("section .sec-head, section .tilt, .pillar, .menu-card, .prose, .gift-photo, .ig-grid a, .hours, .contact > *, .foot > *");
+    const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.remove("pre"); io.unobserve(e.target); } }), {rootMargin:"0px 0px -8% 0px"});
+    targets.forEach(el => {
+      if (el.getBoundingClientRect().top < innerHeight) return;
+      const sib = el.parentElement ? [...el.parentElement.children].indexOf(el) : 0;
+      el.style.setProperty("--d", (Math.min(sib, 5) * 0.08) + "s");
+      el.classList.add("rv", "pre"); io.observe(el);
+    });
+    setTimeout(() => document.querySelectorAll(".rv.pre").forEach(el => { if (el.getBoundingClientRect().top < innerHeight) el.classList.remove("pre"); }), 2500);
+  }
+
+  /* ---------- ticker ---------- */
+  const words = ["Pizza","Pasta","Spritz","Dine in","Takeaway","Dogs welcome","Gluten-free bases","Vegan cheese","Kids menu"];
+  const run = words.map(w => `<span>${w}</span>`).join("");
+  document.getElementById("ticker").innerHTML = run + run;
+
+  /* ---------- open now + today in hours (Brisbane time) ---------- */
+  const H = {3:[17,20],4:[17,20],5:[16,21],6:[16,21],0:[16,20]};
+  try {
+    const parts = new Intl.DateTimeFormat("en-AU",{timeZone:"Australia/Brisbane",weekday:"short",hour:"numeric",minute:"numeric",hour12:false}).formatToParts(new Date());
+    const wd = {Sun:0,Mon:1,Tue:2,Wed:3,Thu:4,Fri:5,Sat:6}[parts.find(p=>p.type==="weekday").value];
+    const hr = +parts.find(p=>p.type==="hour").value + (+parts.find(p=>p.type==="minute").value)/60;
+    const row = document.querySelector(`#hours tr[data-day="${wd}"]`); if (row) row.classList.add("today");
+    const el = document.getElementById("openNow"), txt = el.querySelector("span");
+    const h = H[wd];
+    if (h && hr >= h[0] && hr < h[1]) txt.textContent = `Open now · until ${h[1]-12}pm tonight`;
+    else if (h && hr < h[0]) txt.textContent = `Opens today at ${h[0]-12}pm`;
+    else { el.classList.add("closed"); let d=wd; for(let i=1;i<=7;i++){ d=(wd+i)%7; if(H[d]) break; }
+      txt.textContent = `Closed now · back ${["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"][d]} at ${H[d][0]-12}pm`; }
+  } catch(e) {}
+
+  /* ---------- wire up links from the settings block ---------- */
+  const setAll = (sel, url) => url && document.querySelectorAll(sel).forEach(a => { a.href = url; a.target = "_blank"; a.rel = "noopener"; });
+  setAll(".js-book", C.bookingUrl);
+  setAll(".js-order", C.orderUrl);
+  if (C.giftCardUrl) document.querySelectorAll(".js-gift").forEach(a => { a.href = C.giftCardUrl; a.target = "_blank"; a.rel = "noopener"; a.textContent = "Buy a gift card"; });
+  setAll(".js-fb", C.facebook);
+  if (C.instagram) {
+    const u = `https://www.instagram.com/${C.instagram}/`;
+    document.querySelectorAll(".js-ig").forEach(a => a.href = u);
+    document.querySelectorAll(".ig-handle").forEach(a => a.textContent = "@" + C.instagram);
+  }
+  if (!C.facebook) document.querySelectorAll(".js-fb").forEach(a => a.hidden = true);
+
+  /* ---------- Instagram: hide the preview once a live widget is pasted in ---------- */
+  const live = document.getElementById("ig-live");
+  if (C.beholdFeedId) {
+    const w = document.createElement("behold-widget"); w.setAttribute("feed-id", C.beholdFeedId); live.appendChild(w);
+    const sc = document.createElement("script"); sc.type = "module"; sc.src = "https://w.behold.so/widget.js"; document.head.appendChild(sc);
+  }
+  const swap = () => { if (live.children.length) document.getElementById("igPreview").hidden = true; };
+  swap(); new MutationObserver(swap).observe(live, {childList:true});
+
+  /* ---------- phone action bar: only once the hero buttons have scrolled away ---------- */
+  const bar = document.querySelector(".actionbar"), heroBtns = document.querySelector(".hero-ctas");
+  if (bar && heroBtns && "IntersectionObserver" in window) {
+    new IntersectionObserver(([e]) => bar.classList.toggle("show", !e.isIntersecting && e.boundingClientRect.top < 0)).observe(heroBtns);
+  } else if (bar) bar.classList.add("show");
+
+  /* ---------- drawer ---------- */
+  const drawer = document.getElementById("drawer"), burger = document.getElementById("burger");
+  const setDrawer = open => { drawer.hidden = !open; burger.setAttribute("aria-expanded", open); document.body.style.overflow = open ? "hidden" : ""; };
+  burger.addEventListener("click", () => setDrawer(true));
+  document.getElementById("close").addEventListener("click", () => setDrawer(false));
+  drawer.querySelectorAll("a").forEach(a => a.addEventListener("click", () => setDrawer(false)));
+  document.addEventListener("keydown", e => { if (e.key === "Escape") setDrawer(false); });
+
+  document.getElementById("yr").textContent = new Date().getFullYear();
+})();
+</script>
+
+</body>
+</html>
