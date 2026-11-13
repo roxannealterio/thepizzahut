@@ -489,6 +489,20 @@ footer{background:var(--red);color:var(--cream);padding-block:48px calc(110px + 
 .lp-photo img{position:absolute;inset:0;display:block;width:100%!important;height:100%!important;max-width:none;object-fit:cover}
 .related{display:flex;flex-wrap:wrap;gap:12px;margin-top:8px}
 
+
+/* sample set menu card (replaces the PDF) */
+.setmenu{margin:30px 0 8px;background:var(--red);color:var(--cream);border-radius:22px;padding:clamp(24px,5vw,44px);position:relative;box-shadow:0 0 0 3px var(--cream),0 0 0 5px var(--red)}
+.setmenu .sm-head{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:8px 20px;border-bottom:1.5px dashed rgba(252,246,235,.5);padding-bottom:16px;margin-bottom:18px}
+.setmenu .sm-head h3{font-family:var(--display);font-weight:400;text-transform:uppercase;font-size:clamp(2rem,7vw,2.8rem);line-height:1;margin:0}
+.setmenu .sm-price{font-family:var(--display);font-size:clamp(2rem,7vw,2.8rem);line-height:1}
+.setmenu .sm-price small{font-family:var(--body);font-weight:700;font-size:.8rem;letter-spacing:.14em;margin-left:6px}
+.setmenu .sm-sub{width:100%;font-weight:700;font-size:.78rem;letter-spacing:.18em;text-transform:uppercase;opacity:.9}
+.setmenu .sm-grid{display:grid;gap:20px 40px}
+@media (min-width:760px){.setmenu .sm-grid{grid-template-columns:1fr 1fr}}
+.setmenu h4{font-family:var(--body);font-weight:700;font-size:.78rem;letter-spacing:.22em;text-transform:uppercase;margin:0 0 6px;color:#F2E8CF}
+.setmenu ul{list-style:none;margin:0;padding:0;display:grid;gap:3px}
+.setmenu li{font-size:.98rem}
+.setmenu .sm-note{margin-top:22px;padding-top:16px;border-top:1.5px dashed rgba(252,246,235,.5);font-size:.86rem;opacity:.92;display:grid;gap:6px}
 </style>
 </head>
 <body>
@@ -551,7 +565,19 @@ footer{background:var(--red);color:var(--cream);padding-block:48px calc(110px + 
       <h2 style="margin-top:34px">Pizza, pasta &amp; a garden</h2>
       <p>Our full menu is available for groups: red and white pizzas, homemade gnocchi and pasta, entrées, salads and desserts like tiramisù and our Pistachio dolce pizza. To drink there's Italian wine, cocktails like Aperol spritz and espresso martini, and Brouhaha beer on the list.</p>
       <p>We cater for vegetarian, vegan and gluten-free guests, with gluten-free bases and vegan cheese available on any pizza. There's a kids menu too, and the outdoor garden tables are dog friendly.</p>
-      <div class="related"><a class="btn btn-red" href="the-pizza-garden-functions.pdf" target="_blank">Download the functions package (PDF)</a><a class="btn btn-line" href="/#menu">See the full menu</a><a class="btn btn-line" href="../kids-birthday-parties/">Kids birthday parties</a></div>
+      <div class="setmenu" id="set-menu">
+        <div class="sm-head"><h3>The set menu</h3><span class="sm-price">$60<small>PP</small></span><span class="sm-sub">Food &amp; a welcome drink · served share-style · sample menu</span></div>
+        <div class="sm-grid">
+          <div><h4>On arrival</h4><ul><li>Welcome drink</li></ul></div>
+          <div><h4>Entrées</h4><ul><li>Garlic focaccia</li><li>Truffle mushroom arancini</li><li>Crispy calamari</li><li>Caprese bruschetta</li></ul></div>
+          <div><h4>Pizza &amp; pasta</h4><ul><li>A selection of red and white pizzas: margherita, capricciosa, pollo, funghi e tartufo, burrata</li><li>Spaghetti pesto &amp; gnocchi Napoli to share</li></ul></div>
+          <div><h4>On the side</h4><ul><li>Rucola e pera salad</li><li>Chips with rosemary salt</li></ul></div>
+          <div><h4>Dolci</h4><ul><li>Cannoli</li><li>Tiramisù</li><li>Pistachio dolce pizza</li></ul></div>
+          <div><h4>The garden</h4><ul><li>Up to 25 guests seated</li><li>Bring your own balloons &amp; decorations</li><li>Kids menu &amp; extra drinks from the bar</li></ul></div>
+        </div>
+        <div class="sm-note"><span>Please tell us about any allergies or dietary needs when booking.</span><span><b>Enquiries:</b> <a href="mailto:hello@thepizzagarden.com.au?subject=Function%20enquiry" style="color:var(--cream)">hello@thepizzagarden.com.au</a> or <a href="tel:+61748005359" style="color:var(--cream)">07 4800 5359</a></span></div>
+      </div>
+      <div class="related"><a class="btn btn-red" href="mailto:hello@thepizzagarden.com.au?subject=Function%20enquiry">Enquire about a function</a><a class="btn btn-line" href="/#menu">See the full menu</a><a class="btn btn-line" href="../kids-birthday-parties/">Kids birthday parties</a></div>
     </div>
   </section>
   <section class="lp alt">
