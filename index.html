@@ -493,7 +493,7 @@ window.PIZZA_GARDEN = {
         <div class="tabs" role="tablist" id="tabs" aria-label="Menu sections"></div>
         <div id="panel" role="tabpanel"></div>
         <div style="display:flex;flex-wrap:wrap;gap:12px;margin-top:28px"><a class="btn btn-red js-order" href="#menu">Order online</a><a class="btn btn-line js-book" href="#visit">Book a table</a></div>
-        <p class="m-legend">(V) vegetarian · (VG) vegan · (GF) gluten free. Gluten-free base +6 and vegan cheese +4 on any pizza. Please tell us about allergies when you order.</p>
+        <p class="m-legend">(V) vegetarian · (VG) vegan · (GF) gluten free. Gluten-free base +7 and vegan cheese +4 on any pizza. Please tell us about allergies when you order.</p>
       </div>
     </div>
   </section>
@@ -663,35 +663,34 @@ window.PIZZA_GARDEN = {
   const MENU = {
     pizza: { label:"Pizza", groups:[
       { title:"Red pizza", note:"Tomato base with fior di latte", items:[
-        ["Margherita","24","Basil","V"],
-        ["Ham & pineapple","25","Smoked ham and pineapple"],
-        ["Pepperoni","25","Pepperoni and hot honey"],
+        ["Margherita","24","Oregano, fresh basil and extra virgin olive oil","V"],
+        ["Ham & pineapple","25","Smoked ham and sweet pineapple"],
+        ["Pepperoni","25","Pepperoni and spicy honey"],
         ["Capricciosa","26","Smoked ham, mushrooms and olives"],
-        ["Salsiccia e funghi","26","Mushrooms, Italian sausage and olives"],
-        ["Calabrese","26","Spicy salami, roast capsicum, olives and pickled onion"],
-        ["Vegetariana","27","Onion, zucchini, rocket, cherry tomatoes and flaked almonds","V"],
-        ["Mario","29","Pepperoni, pancetta, pesto and parmesan"],
-        ["Greca","29","Pumpkin, onion, capsicum, olives and feta","V"],
-        ["Prosciutto","30","Prosciutto, rocket and parmesan"],
-        ["Meat lovers","32","Smoked ham, hot salami, pepperoni and Italian sausage"],
-        ["Porcino","32","Porcini mushrooms, Italian sausage, pancetta, truffle sauce and basil"],
-        ["Burrata","34","Prosciutto, rocket and creamy burrata on top"]
+        ["Salsiccia e funghi","26","Italian sausage, mushrooms and olives"],
+        ["Calabrese","26","Spicy salami, roast capsicum, olives, chilli oil and pickled onion"],
+        ["Vegetariana","27","Zucchini, pickled onion, cherry tomatoes, topped with rocket and flaked almonds","V"],
+        ["Mario","29","Pepperoni and pancetta, finished with basil pesto and parmesan"],
+        ["Prosciutto","30","Prosciutto, fresh rocket and shaved parmesan"],
+        ["Meat lovers","32","Smoked ham, hot salami, pepperoni and Italian sausage. For the hungry ones"],
+        ["Porcino","32","Porcini mushrooms, Italian sausage and pancetta with truffle sauce and fresh basil"],
+        ["Burrata","34","Prosciutto and rocket, topped with a whole creamy burrata to tear into"]
       ]},
-      { title:"White pizza", note:"No tomato base", items:[
-        ["Quattro formaggi","28","Fior di latte, parmesan, gorgonzola, stracciatella and scamorza","V"],
-        ["Funghi e tartufo","28","Scamorza, fior di latte, truffle mushroom, basil and white truffle oil"],
-        ["Pollo","29","Roasted chicken, fior di latte, pickled onion, mushroom, pancetta, balsamic glaze and basil"],
-        ["Luigi","29","Smoked cheese base, pancetta, cherry tomatoes, pesto, parmesan, rocket and pepper"],
-        ["Zucchine e gamberetti","30","Fior di latte, roasted zucchini, garlic prawns, cherry tomatoes, parmesan and dill"]
+      { title:"White pizza", note:"White base, with fior di latte", items:[
+        ["Quattro formaggi","28","Four Italian cheeses: gorgonzola, smoky scamorza and parmesan, finished with creamy stracciatella","V"],
+        ["Funghi e tartufo","28","Scamorza and truffle mushrooms with fresh basil and a drizzle of white truffle oil"],
+        ["Pollo","29","Roasted chicken, mushroom, pancetta and pickled onion, finished with balsamic glaze and basil"],
+        ["Luigi","29","Smoked cheese base with pancetta and cherry tomatoes, finished with pesto, parmesan, rocket and cracked pepper"],
+        ["Zucchine e gamberetti","30","Roasted zucchini, garlic prawns and cherry tomatoes, finished with parmesan and fresh dill"]
       ]},
       { title:"Extras", items:[
-        ["Gluten-free base","6"],["Meat or prawns","6"],["Vegetables","4"],["Vegan cheese","4"],["Chips on pizza","4"],["Half & half","2"],["Make any pizza a calzone","Free"],
+        ["Gluten-free base","7"],["Meat or prawns","6"],["Vegetables","4"],["Vegan cheese","4"],["Chips on pizza","4"],["Half & half","2"],["Make any pizza a calzone","Free"],
         ["Anchovies","3"],["Cheese","3"],["Sauces","1"],["Herbs","0.50"]
       ]}
     ]},
     pasta: { label:"Pasta", groups:[
       { title:"Gnocchi", note:"Homemade gnocchi", items:[
-        ["Napoli","24","Napoli tomato sauce, fresh basil and olive oil","VG"],
+        ["Napoli","24","Napoli tomato sauce, fresh basil, olive oil and stracciatella. Vegan without the stracciatella","V · VG OPTION"],
         ["Basil pesto","25","Basil pesto, cherry tomatoes, fresh basil and stracciatella. Add roast chicken +5","V"],
         ["Quattro formaggi","27","Cream base with gorgonzola, parmesan and scamorza, topped with stracciatella","V"],
         ["Truffle mushroom","29","Porcini, wild mushrooms and truffle oil","V"],
@@ -706,18 +705,17 @@ window.PIZZA_GARDEN = {
     ]},
     starters: { label:"Starters", groups:[
       { title:"Entrée", items:[
-        ["Mixed olives","9",""],
+        ["Mixed olives","10","Green and black olives marinated with fresh rosemary, lemon zest and extra virgin olive oil"],
         ["Garlic focaccia","14","House-made pizza flatbread with garlic, rosemary and extra virgin olive oil","VG · GF OPTION"],
         ["Crispy calamari","17","Lightly dusted in rice flour and fried until crisp, with rocket, fresh lemon, dill and garlic aioli","GF"],
-        ["Truffle mushroom arancini","18","Three golden risotto balls filled with mushroom, truffle and fior di latte","V · GF"],
-        ["Caprese bruschetta","22","Toasted sourdough topped with cherry tomatoes, fior di latte, fresh basil and extra virgin olive oil","V · GF OPTION"]
+        ["Truffle mushroom arancini","18","Three golden risotto balls filled with mushroom, truffle and truffle aioli","V · GF"],
+        ["Caprese bruschetta","22","Focaccia topped with cherry tomatoes, buffalo cheese, fresh basil and balsamic glaze","V · GF OPTION"]
       ]},
       { title:"Sides", items:[
-        ["Chips","9","With rosemary salt","GF"],
-        ["Truffle & parmesan chips","13",""]
+        ["Chips","9","With sea salt and tomato sauce","GF"],
+        ["Truffle & parmesan chips","13","Chips tossed in truffle oil and finished with grated parmesan, served with truffle aioli","GF"]
       ]},
       { title:"Salad", items:[
-        ["Italian garden salad","18","Rocket, basil, pumpkin, red onion, capsicum, feta and Italian vinaigrette","V"],
         ["Rucola e pera","19","Rocket, pear, shaved parmesan, walnuts, balsamic dressing and extra virgin olive oil","V"],
         ["Buffalo salad","23","Buffalo cheese, cherry tomatoes, rocket, basil, homemade basil pesto and extra virgin olive oil","V"]
       ]}
@@ -737,14 +735,14 @@ window.PIZZA_GARDEN = {
         ["Cannoli","7","Homemade cannoli shell filled with sweet ricotta and chocolate chips, finished with pistachios and dark chocolate"],
         ["Tiramisù","15","Layers of coffee-soaked sponge, mascarpone cream, cocoa and chocolate"],
         ["Nutella pizza","18","Sweet pizza topped with Nutella, banana, strawberries and crushed pistachios. Gluten-free base +6"],
-        ["Pistachio dolce pizza","20","Sweet pizza topped with pistachio paste, ricotta, fresh strawberries, Nutella and crushed pistachios. Gluten-free base +2"],
+        ["Dolce duo pizza","22","Half Nutella, half pistachio. Pistachio paste, Nutella, fresh strawberries and crushed pistachios"],
         ["Gelato","","Our weekly selection is in the front display fridge"]
       ]}
     ]},
     drinks: { label:"Drinks", groups:[
       { title:"Cocktails", items:[
-        ["Aperol spritz","16"],["Mojito","18"],["Margarita","18","Classic, spicy or mango"],
-        ["Espresso martini","18"],["Whiskey sour","18"],["Mocktail","14"]
+        ["Aperol spritz","16"],["Campari spritz","18"],["Mojito","18"],["Margarita","18","Classic, spicy or mango"],
+        ["Whiskey sour","18"],["Classic negroni","18"],["Americano","18"],["Mango mocktail","16"]
       ]},
       { title:"White & rosé wine", note:"Glass / bottle", items:[
         ["Prosecco","11 / 50"],["Vermentino","12 / 53"],["Pinot grigio","12 / 53"],["Soave","12 / 55"],["Rosé","13 / 59"]
@@ -753,12 +751,12 @@ window.PIZZA_GARDEN = {
         ["GSM","13 / 58"],["Montepulciano","14 / 62"],["Sangiovese","14 / 62"]
       ]},
       { title:"Beer", items:[
-        ["Brouhaha","11","Locals lager, Hinterland pale or ginger beer"],["Peroni Red","10"]
+        ["Brouhaha","11","Locals lager or Hinterland pale"],["Peroni Red","10"],["Cerveza","10"],["Ginger beer","13"],["Zero beer","13","Non-alcoholic"]
       ]},
       { title:"Non-alcoholic", items:[
-        ["San Pellegrino sparkling water","7.50"],["San Benedetto still water","7.50"],
+        ["San Pellegrino sparkling water 500ml","8"],["San Benedetto still water 1l","8"],
         ["San Pellegrino","5.50","Chinotto, limonata, aranciata or aranciata rossa"],["Can of soft drink","5","Coke, Coke No Sugar, Sprite, Sprite No Sugar"],
-        ["Lemon, lime & bitters","7"],["Kids popper","5","Apple or orange"]
+        ["Lemon, lime & bitters","7"],["Kids popper","4","Apple or orange"]
       ]}
     ]}
   };
